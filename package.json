@@ -1,0 +1,20 @@
+{
+  "name": "graphql-fullstack-nest-ng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "pnpm -F server start:dev",
+    "admin:dev": "pnpm -F web-admin start",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "typescript": "~5.0.2"
+  }
+}
