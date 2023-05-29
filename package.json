@@ -1,11 +1,12 @@
 {
   "name": "graphql-fullstack-nest-ng",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "server:dev": "pnpm -F server start:dev",
     "admin:dev": "pnpm -F web-admin start",
+    "cz": "git-cz",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"
@@ -15,6 +16,15 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "commitizen": "^4.3.0",
     "typescript": "~5.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   }
 }
