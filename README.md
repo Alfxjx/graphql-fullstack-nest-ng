@@ -2,6 +2,13 @@
 
 全栈gql项目
 
+## git commit
+
+```
+pnpm cz # 开始提交
+
+```
+
 ## refs
 
 1. https://juejin.cn/post/7145010706063523854
